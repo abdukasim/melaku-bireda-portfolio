@@ -61,6 +61,7 @@ export default function Navbar({ transparent }) {
             <a href="#" className="my-1">
               <Image
                 src="/images/youtube.png"
+                alt="youtube logo"
                 width={30}
                 height={30}
                 layout=""

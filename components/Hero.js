@@ -9,6 +9,7 @@ export default function Hero() {
         height={3126}
         layout="intrinsic"
         src="/images/hero.jpg"
+        alt="musician on stage"
       />
     </div>
   );
