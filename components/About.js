@@ -6,9 +6,7 @@ export default function About() {
       id="about"
       className="my-16 lg:my-32 flex flex-col justify-center items-center"
     >
-      <h1 className="font-bold text-3xl text-slate-900 tracking-wider uppercase mb-2">
-        Melaku Bireda
-      </h1>
+      <h1 className="heading-1 mb-2">Melaku Bireda</h1>
       <h2 className="font-semibold text-lg text-gray-500 mb-4">
         Award Winning Artist
       </h2>

@@ -5,3 +5,7 @@
 html {
   scroll-behavior: smooth;
 }
+
+.heading-1 {
+  @apply font-bold text-3xl text-slate-900 tracking-wider uppercase;
+}
