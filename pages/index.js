@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import About from "../components/About";
 import Hero from "../components/Hero";
-import styles from "../styles/Home.module.css";
+import Music from "../components/Music";
 
 export default function Home() {
   return (
@@ -15,6 +15,7 @@ export default function Home() {
 
       <Hero />
       <About />
+      <Music />
     </>
   );
 }
