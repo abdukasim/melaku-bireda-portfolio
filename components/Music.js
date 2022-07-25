@@ -9,9 +9,8 @@ export default function Music() {
           <iframe
             src="https://www.youtube.com/embed/ZzSUtMQOXdE"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
             className="w-full h-full"
           ></iframe>
         </div>
@@ -19,9 +18,8 @@ export default function Music() {
           <iframe
             src="https://www.youtube.com/embed/ORymjs8J1C0"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
             className="w-full h-full"
           ></iframe>
         </div>
@@ -29,9 +27,8 @@ export default function Music() {
           <iframe
             src="https://www.youtube.com/embed/KD_4NPE-6-g"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
             className="w-full h-full"
           ></iframe>
         </div>
@@ -39,9 +36,8 @@ export default function Music() {
           <iframe
             src="https://www.youtube.com/embed/Flh8KeCDDOM"
             title="YouTube video player"
-            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
             className="w-full h-full"
           ></iframe>
         </div>
