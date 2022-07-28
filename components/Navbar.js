@@ -2,9 +2,11 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
 import { FaBars } from "react-icons/fa";
+import { useAutoAnimate } from "@formkit/auto-animate/react";
 
-export default function Navbar({ transparent }) {
+export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [animationParent] = useAutoAnimate();
   const navLinks = [
     {
       name: "About",
@@ -49,7 +51,10 @@ export default function Navbar({ transparent }) {
             </a>
           </div>
           <div className="flex justify-between items-center">
-            <ul className="hidden lg:flex justify-between">
+            <ul
+              className="hidden lg:flex justify-between"
+              ref={animationParent}
+            >
               {navLinks.map((link, index) => (
                 <li key={index} className="mr-12">
                   <a href={link.link} className="uppercase">
